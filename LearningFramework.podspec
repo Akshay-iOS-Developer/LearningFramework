@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LearningFramework"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of LearningFramework."
+  spec.version      = "0.0.2"
+  spec.summary      = "This is a learning framework to test"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -80,7 +80,7 @@ My sample framework to test dependencies in framework
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Akshay-iOS-Developer/LearningFramework", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Akshay-iOS-Developer/LearningFramework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -122,7 +122,7 @@ My sample framework to test dependencies in framework
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
-
+  spec.swift_version = "5" 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
