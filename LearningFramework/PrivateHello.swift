@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class PrivateHello: NSObject {
     func sayPrivate()->String{
